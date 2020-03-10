@@ -78,10 +78,7 @@ footer .active {
 	float:right;
 }
 
-body{
-	margin: 0;
-	padding: 0;
-	display: inline-block;
-	max-width: 2000px;
-
+.content{     /* igy elvileg ott marad középpen + bodyt kitöröltem*/
+  margin: auto;
+  max-width: 2000px;
 }
