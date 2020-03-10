@@ -1,0 +1,87 @@
+/*------ felso menu bar ------*/
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url("images/metal.jpg");
+}
+header {
+	font-size: 20px;
+}
+header li {
+  float: left;
+}
+
+header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover:not(.active) {
+  background-color: #111;
+}
+
+header .active {
+  background-color: #870100;
+}
+
+
+
+/*------ also menu bar ------*/
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  padding-right: 25%;
+  
+  
+}
+
+footer li {
+  float: left;
+}
+
+footer li a {
+  display: block;
+  color: #444444;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+footer li a:hover:not(.active) {
+  background-color: #9E9E9E;
+}
+
+footer .active {
+  background-color: #870100;
+}
+
+.valami{	
+	
+	
+
+
+}
+
+/* -------------------------------*/
+
+.regi{
+	float:right;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	max-width: 2000px;
+
+}
